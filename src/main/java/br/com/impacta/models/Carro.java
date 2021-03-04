@@ -8,6 +8,12 @@ public class Carro {
 	
 	private Double valor;
 	
+  public Carro (Integer ano, String cor, Double valor) {
+    this.ano = ano;
+    this.cor = cor;
+    this.valor = valor;
+  }
+
 
 	public Integer getAno() {
 		return ano;

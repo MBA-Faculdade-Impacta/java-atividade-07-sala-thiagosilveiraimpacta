@@ -25,11 +25,7 @@ public class JavaSpringTemplateApplication {
 		 */
 		
 		
-		Carro carro = new Carro();
-		carro.setCor("Amarelo");
-		carro.setAno(2010);
-		carro.setValor(10000.00);
-		
+		Carro carro = new Carro(2010, "Amarelo", 10000.00);		
 		
 		System.out.println(carro.getCor());
 	}
